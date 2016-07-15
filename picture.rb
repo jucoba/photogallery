@@ -2,7 +2,7 @@ class Picture
 	def initialize(url, caption)
 		@url = url
 		@caption = caption
-		@key = key
+		
 	end
 
 	def url
