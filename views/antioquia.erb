@@ -1,14 +1,13 @@
 <div class="w3-container">
 <h2>Santa F&eacute de Antioquia</h2>
 <p>Se ha convertido en el eje del turismo y el desarrollo para el Occidente Antioquieño, la ciudad colonial de de hermosos paisajes, la convierten en un destino para visitar y compartir en familia. 
-Fundada por el Mariscal Jorge Robledo el 4 de Diciembre de 1541.</p>
+Fundada por el Mariscal Jorge Robledo el 4 de Diciembre de 1541. route: <%= @route %> </p>
 </div>
 
 <div class="w3-row">
-  <% @ant = Galleries['antioquia'] %>
-
-  <% @ant.pictures.each_key do |id| %>
-    
+  <% @ant = Galleries[@route] %>
+  
+  <% @ant.pictures.each_key do |id| %>    
     <div class="w3-col s3 w3-container w3-card-4">
     <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('<%= id %>');">
       <img src='<%= @ant.pictures[id].url %>' style="width:100%">
@@ -29,6 +28,7 @@ Fundada por el Mariscal Jorge Robledo el 4 de Diciembre de 1541.</p>
 
   </div>
 <% end %>
+
 
 
 
