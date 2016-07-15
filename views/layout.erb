@@ -20,15 +20,39 @@
       		<%= yield %>
     	</div>	
 	</body>
-	<script>
+<script>
 
-function openImg(imageName) {
-    var i;
-    var x = document.getElementsByClassName("picture");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
-    }
-    document.getElementById(imageName).style.display = "block";
-}
+	function openImg(imageName) {
+	    var i;
+	    var x = document.getElementsByClassName("picture");
+	    for (i = 0; i < x.length; i++) {
+	       x[i].style.display = "none";
+	    }
+	    document.getElementById(imageName).style.display = "block";
+ 	}
+
+ 	var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+	  showDivs(slideIndex += n);
+	}
+
+	function setSlideIndex(n) {		
+		showDivs(slideIndex = n);
+
+	}
+
+	function showDivs(n) {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  if (n > x.length) {slideIndex = 1}
+	  if (n < 1) {slideIndex = x.length}
+	  for (i = 0; i < x.length; i++) {
+	     x[i].style.display = "none";
+	  }
+	  x[slideIndex-1].style.display = "block";
+	}
+		
 </script>
 </html>

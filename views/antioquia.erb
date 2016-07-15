@@ -6,28 +6,40 @@
 
 <div class="w3-row">
   
-  
+  <% @slideIndex = 1 %>
   <% @gallery.pictures.each_key do |id| %>    
     <div class="w3-col s3 w3-container w3-card-4">
-    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('<%= id %>');">
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="document.getElementById('id01').style.display='block'; setSlideIndex(<%= @slideIndex %>);">
       <img src='<%= @gallery.pictures[id].url %>' style="width:100%">
     </a>
     <p><%= @gallery.pictures[id].caption %></p>
     </div>
+    <% @slideIndex += 1 %>
   <% end %>
 
   
 </div>
 <br>
-<% @gallery.pictures.each_key do |id| %>
-  <div id="<%= id %>" class="picture w3-display-container w3-center w3-margin">
-    <img src='<%= @gallery.pictures[id].url  %>' alt="catedral" style="width:80% height:80%" class="w3-padding">
-    <span onclick="this.parentElement.style.display='none'"
-    class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
-    <div class="w3-display-bottommiddle w3-container w3-padding w3-text-white"><%= @gallery.pictures[id].caption %></div>
 
+<!-- The Modal -->
+<div id="id01" class="w3-modal" >
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-closebtn">&times;</span>
+      <div class="w3-content" style="max-width:800px;position:relative">
+        <% @gallery.pictures.each do |id, picture| %>
+          <img class="mySlides" src="<%= picture.url %> " style="width:100%">
+        <% end %>
+        
+
+      </div>
+      <a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">❮</a>
+      <a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">❯</a>
+
+    </div>
   </div>
-<% end %>
+</div>
+
 
 
 
