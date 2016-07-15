@@ -1,30 +1,30 @@
+<% @gallery = Galleries[@route] %>
 <div class="w3-container">
-<h2>Santa F&eacute de Antioquia</h2>
-<p>Se ha convertido en el eje del turismo y el desarrollo para el Occidente Antioquieño, la ciudad colonial de de hermosos paisajes, la convierten en un destino para visitar y compartir en familia. 
-Fundada por el Mariscal Jorge Robledo el 4 de Diciembre de 1541. route: <%= @route %> </p>
+<h2><%= @gallery.name %></h2>
+<p><%= @gallery.description %></p>
 </div>
 
 <div class="w3-row">
-  <% @ant = Galleries[@route] %>
   
-  <% @ant.pictures.each_key do |id| %>    
+  
+  <% @gallery.pictures.each_key do |id| %>    
     <div class="w3-col s3 w3-container w3-card-4">
     <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('<%= id %>');">
-      <img src='<%= @ant.pictures[id].url %>' style="width:100%">
+      <img src='<%= @gallery.pictures[id].url %>' style="width:100%">
     </a>
-    <p><%= @ant.pictures[id].caption %></p>
+    <p><%= @gallery.pictures[id].caption %></p>
     </div>
   <% end %>
 
   
 </div>
 <br>
-<% @ant.pictures.each_key do |id| %>
+<% @gallery.pictures.each_key do |id| %>
   <div id="<%= id %>" class="picture w3-display-container w3-center w3-margin">
-    <img src='<%= @ant.pictures[id].url  %>' alt="catedral" style="width:80% height:80%" class="w3-padding">
+    <img src='<%= @gallery.pictures[id].url  %>' alt="catedral" style="width:80% height:80%" class="w3-padding">
     <span onclick="this.parentElement.style.display='none'"
     class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
-    <div class="w3-display-bottommiddle w3-container w3-padding w3-text-white"><%= @ant.pictures[id].caption %></div>
+    <div class="w3-display-bottommiddle w3-container w3-padding w3-text-white"><%= @gallery.pictures[id].caption %></div>
 
   </div>
 <% end %>

@@ -12,3 +12,8 @@ get '/ant' do
 	@route = request.path_info
 	erb :antioquia
 end
+
+get '/guatape' do
+	@route = request.path_info
+	erb :antioquia
+end

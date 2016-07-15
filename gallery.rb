@@ -1,8 +1,9 @@
 class Gallery
-	def initialize(url, name, pictures)
+	def initialize(url, name, pictures, description)
 		@url = url
 		@pictures = pictures
 		@name = name
+		@description = description
 	end
 
 	def url
@@ -15,5 +16,9 @@ class Gallery
 
 	def pictures
 		@pictures
+	end
+
+	def description
+		@description
 	end
 end
