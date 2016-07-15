@@ -7,31 +7,32 @@ Fundada por el Mariscal Jorge Robledo el 4 de Diciembre de 1541.</p>
 <div class="w3-row">
   <div class="w3-col s3 w3-container w3-card-4">
   <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('catedral');">
-    <img src='<%= PictureUrl["catedralDia"] %>' alt="Catedral" style="width:100%">
+    <img src='<%= PictureUrl["catedralDia"].url %>' alt="Catedral" style="width:100%">
   </a>
-  <p>Catedral Basilica Metropolitana</p>
+  <p><%= PictureUrl["catedralNoche"].caption %></p>
   </div>
+
   <div class="w3-col s3 w3-container w3-card-4">
     <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('catedralNoche');">
-      <img src='<%= PictureUrl["catedralNoche"] %>' alt="Fjords" style="width:100%">
+      <img src='<%= PictureUrl["catedralNoche"].url %>' alt="Fjords" style="width:100%">
     </a>
-    <p>Catedral Basilica Metropolitana</p>
+    <p><%= PictureUrl["catedralNoche"].caption %></p>
   </div>
 </div>
 <br>
 <div id="catedral" class="picture w3-display-container w3-center w3-margin">
-  <img src='<%= PictureUrl["catedralDia"] %>' alt="catedral" style="width:80% height:80%" class="w3-padding">
+  <img src='<%= PictureUrl["catedralDia"].url %>' alt="catedral" style="width:80% height:80%" class="w3-padding">
   <span onclick="this.parentElement.style.display='none'"
   class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
-  <div class="w3-display-bottommiddle w3-container w3-padding w3-text-white">Catedral Basilica Metropolitana</div>
+  <div class="w3-display-bottommiddle w3-container w3-padding w3-text-white"><%= PictureUrl["catedralNoche"].caption %></div>
 
 </div>
 
 <div id="catedralNoche" class="picture w3-display-container w3-center w3-margin">
-  <img src='<%= PictureUrl["catedralNoche"] %>' alt="Fjords" style="width:80% height:80%" class="w3-padding">
+  <img src='<%= PictureUrl["catedralNoche"].url %>' alt="Fjords" style="width:80% height:80%" class="w3-padding">
   <span onclick="this.parentElement.style.display='none'"
   class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
-  <div class="w3-display-bottommiddle w3-container w3-padding w3-text-white">Catedral Basilica Metropolitana</div>
+  <div class="w3-display-bottommiddle w3-container w3-padding w3-text-white"><%= PictureUrl["catedralNoche"].caption %>/div>
 </div>
 
 
