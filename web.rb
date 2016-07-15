@@ -3,6 +3,7 @@ require './picturesUrl.rb'
 
 
 
+
 get '/' do
 	@route = request.path_info
 	erb:index
@@ -17,3 +18,11 @@ get '/guatape' do
 	@route = request.path_info
 	erb :antioquia
 end
+
+get '/sanCristobal' do
+	@route = request.path_info
+	erb :antioquia
+	
+end
+
+
