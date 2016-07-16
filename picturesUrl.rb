@@ -9,6 +9,7 @@ PicturesURL = {
 	'tunelOccidente' => 'https://lh3.googleusercontent.com/F5QMP8wuA1ywCMlC29Im0g1Hyf77Dd2-JSzkmHxHcKiCXl_l0MvXcrUOPCitasOjxYoYbfuhmr1y8b8E4wma5a1BJQ57RDQvxkKFT1DmOqjjqoFgPZdXsKXCoNw7rVb0-xItvr3ObNuJLbTTM8ADZWYINiz96wfZfwNkFmwMraAnTaDfhaHdbzaTh25qCTPMPJ_zOuS8kJJ2NrlWFgKsLVxRDuXf-78eiLzbZgpdB6e39gTpDAWviyeuDeZDtIQ_pWRhDPJ13ZJfMdoknlSAYJorkcKlsKmQAPKMFiXwCGDQVLIJukiKyd4vKGl8dE3Hur5uwaPnKJIR85B19-hsd6B7ExcBudc4tNFPAydzJ8dFgw5l-2jerBNUQZAP1o3dWceJTG-4PPbdHdKfLqOfGvzhksV5YC4M7omSYosqWEiZvN3dVmi1SH1YB7DtWNnUMv358tottXsgqWK8XaNmniZ6_1h3Hm8rGesy1jaPUujfXpv3vhHuZpbhitMWn3bBmUXKTA8__PI7BBacK7KkUV4SuouEAwRfo7M-XaJo0pt-fl8i3LaZiLvd67yoykA_HxhLR_AqH4_vaF0OFyntAmnbHfK3lWM8=w1092-h614-no',
 	'rioTustenoYCauca' => 'https://lh3.googleusercontent.com/ORlZ0CvkepW-9oeu0lAPCMhVqON7Q2ujn3-hRt5rSqIsV3I5C0mk0ViBEhOH06T6NtEQAovuZ8JReJ_e65OAGwl-8cHc5xEfabJHjzAje4iJcTVP-tC7ruexTxWSKpd08hRvFmBDOyF3l4QcTRyegRoCk-l5yzDUeusjlvUOPZLRLQJbznWL6d4-nrrdzGKr4lsW5uo9K-SN5PUZW22RCMWRebHMJXCgk4XeYI1ol7pP1TdzRVvnv7rAodxqoJUBAyqsXidRtBxZ56GvQPXsDn4igYUzJvLHuEtzNWBjCsyi16iu7b1BuEUGXop9Yb0K-Pz5ma4FMsKLwG7oRA4eVEC40pGudqiVbGkW9Kbz4NxWckO8zHKUo0R2bDdKJTkNxuk_UCqQ-qGO5prEjAf0yAvIfobNPT9OleoKqRD_WJdssDXbc2_bWG04SvlfcoTnRKjifRoDAwK1F0vDfhARku27x9m6_YP6o8_sSM5I12gyhs63ErTY4afMG0MKATht78fFaiY3ioPuzp8mVjcs_V6m58KaTWM33ZagjSwhAeAw1gq-R3G-7wm3AZ0ang3nkZYXDVFfTSOo6Vm3ubnb2fl4013JwaWl=w760-h570-no',
 	'rioTusteno' => 'https://lh3.googleusercontent.com/8ltS2cancIOFwYG9yGXqArjlAozKpEzoZha5FrGBtcVaRNOfyZhYBAMmGRE74wh3Nk76tUJVC60tTwiaMAJtpwx-TXalW8DUFwZQGzNjIX9crVAcZQKHesDucHkRKvBlpqYO3jp5HTPwmy3L_jIi09flZl6MwRWFL5pnFLqBDBkA0gCGmA3cqAPvtpHVKC0YOesiKLN1j39LPA_obqPdGdi257NBhq0_0dvX_uVzj_Mi_5W1sT7ZxwEiTBkEKW-j5U9GpMSOFS7JJtoxiYVicqHU3uFL_dbb2aa4gSdTirj561-vArmCqQzRWpqwLaT-Zubj4QvJd7LR4pBRAg98zh3lb857AlSQKHtJadp72uVoy_nEPcl3Y5sQ3sR4EG_xzaZU-YAXf4Twt2dAjrmZo8iVTFgKjklP0ZOAZjNE8z2HvL4-hFrjyEnYgR3Vg1s2iqcKgXlWccsOdB87tJwAaygH7mdLXlMsfJGl_O2S3ONJMAPtW6XT0fus2wCoeL5m2h5AQaQRDORhM2gjwH9PtEX5pBIs9Ew8NYq3go7L0TZ2KC7oc2ViDjjnhkjKQevhBugqAYwdsNeadwrBQKNPM_TE4IxdGGZk=w760-h570-no',
+	'claroEnElBosque' => 'https://lh3.googleusercontent.com/suhD2PplWQsRX-of34eFQoZK9KgtwJwldIAVfH2Kf11TwwhFx4Bce8YqWNlG-x_lnAnm3gM7p2MG2NNA3V9yftbDhPKDTOXMlte2wilzTWajYAN58yPf_Tq-aLxPne0UVx14Rxwix1nKeVL3gexbgLbcqFNAWQFhz2KoiNgZCEmWd7tiNRZg0-s9A-HMHi3059D2KI1z-0hwbAuzBByXe5nuspCkrnEuAOmu4SJkcaJa2iTOwxSJVhUUYwZAJsWHzjfHzCO3aijyHHlldLkx7KguSWjAjGb7oCVjcRHSSYSz6IzFE3CVL4gWmnjJCZnxq1s8BKGV4419hjhsdtFH0LoBR9d5Yd9cvTG7otgkCyqMevL9CNZTe0rWo-s_xN6T-dAYtCZII-lPnAAu-5a-_FL_-pK4GWqDtShjBqh8XYhDP3lJXu_QbA2Yg7X7A2SRCUUtqZ74_U3XWk2a3G7buBcsqf-cz4Ns8FEhMEtbMCZITwzksfj_arj-CyX5m6KAZ0met2LgtTmX3lj0WclSLOHslYB7MBF-4tWQLXrD4BkouBSUSzzSK0qh6mX_frZasJ04w0F0APwh2PCQ2SA_zS4cZ8CaIdU6=w1014-h570-no',
 }
 
 AntioquiaUrl = 
@@ -26,12 +27,13 @@ GuatapeUrl = {
 }
 
 SanCristobalURL = {
-	'tunelOccidente' => Picture.new(PicturesURL['tunelOccidente'],'T&uacute;nel de Occidente')
+	'tunelOccidente' => Picture.new(PicturesURL['tunelOccidente'],'T&uacute;nel de Occidente'),
+	'claroEnElBosque' => Picture.new(PicturesURL['claroEnElBosque'],'Claro en un bosque de pinos')
 }
 
 Galleries = 
 {
-	'/ant' =>  Gallery.new(PicturesURL['catedralDia'],'Santa F&eacute; de Antioquia',AntioquiaUrl,'Se ha convertido en el eje del turismo y el desarrollo para el Occidente Antioquie&nacute;o, la ciudad colonial de de hermosos paisajes, la convierten en un destino para visitar y compartir en familia. Fundada por el Mariscal Jorge Robledo el 4 de Diciembre de 1541'),
+	'/ant' =>  Gallery.new(PicturesURL['catedralDia'],'Santa F&eacute; de Antioquia',AntioquiaUrl,'Se ha convertido en el eje del turismo y el desarrollo para el Occidente Antioque&ntilde;o, la ciudad colonial de de hermosos paisajes, la convierten en un destino para visitar y compartir en familia. Fundada por el Mariscal Jorge Robledo el 4 de Diciembre de 1541'),
 	'/guatape' => Gallery.new(PicturesURL['piedraEmbalse'],'Guatap&eacute',GuatapeUrl,''),
 	'/sanCristobal' => Gallery.new(PicturesURL['tunelOccidente'],'San Cristobal',SanCristobalURL,'')
 	
