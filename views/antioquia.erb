@@ -4,15 +4,19 @@
 <p><%= @gallery.description %></p>
 </div>
 
-<div class="w3-row">
+<div class="w3-row-padding w3-margin-top">
   
   <% @slideIndex = 1 %>
-  <% @gallery.pictures.each_key do |id| %>    
-    <div class="w3-col s3 w3-container w3-card-4">
-    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="document.getElementById('id01').style.display='block'; setSlideIndex(<%= @slideIndex %>);">
-      <img src='<%= @gallery.pictures[id].url %>' style="width:100%">
-    </a>
-    <p><%= @gallery.pictures[id].caption %></p>
+  <% @gallery.pictures.each_key do |id| %> 
+    <div class="w3-third">  
+      <div class="w3-card-2 w3-margin-top">
+        <a href="javascript:void(0)" class="w3-hover-opacity" onclick="document.getElementById('id01').style.display='block'; setSlideIndex(<%= @slideIndex %>);">
+          <img src='<%= @gallery.pictures[id].url %>' style="width:100%">
+        </a>
+        <div class="w3-container">
+          <h5><%= @gallery.pictures[id].caption %></h5>
+        </div>
+      </div>
     </div>
     <% @slideIndex += 1 %>
   <% end %>
