@@ -33,7 +33,7 @@ SanCristobalURL = {
 
 Galleries = 
 {
-	'/ant' =>  Gallery.new(PicturesURL['catedralDia'],'Santa F&eacute; de Antioquia',AntioquiaUrl,'Se ha convertido en el eje del turismo y el desarrollo para el Occidente Antioque&ntilde;o, la ciudad colonial de de hermosos paisajes, la convierten en un destino para visitar y compartir en familia. Fundada por el Mariscal Jorge Robledo el 4 de Diciembre de 1541'),
+	'/ant' =>  Gallery.new(PicturesURL['catedralDia'],'Santa F&eacute; de Antioquia',AntioquiaUrl,'Se ha convertido en el eje del turismo y el desarrollo para el Occidente Antioque&ntilde;o, la ciudad colonial de hermosos paisajes, la convierten en un destino para visitar y compartir en familia. Fundada por el Mariscal Jorge Robledo el 4 de Diciembre de 1541'),
 	'/guatape' => Gallery.new(PicturesURL['piedraEmbalse'],'Guatap&eacute',GuatapeUrl,''),
 	'/sanCristobal' => Gallery.new(PicturesURL['tunelOccidente'],'San Cristobal',SanCristobalURL,'')
 	
