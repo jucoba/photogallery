@@ -8,8 +8,8 @@
   
   <% @slideIndex = 1 %>
   <% @gallery.pictures.each_key do |id| %> 
-    <div class="w3-third">  
-      <div class="w3-card-2 w3-margin-top">
+    <div class="w3-third photoSlide">  
+      <div class="w3-card-2 w3-margin-top ">
         
           <img id='myImg<%= @slideIndex %>' alt='<%= @gallery.pictures[id].caption %>' src='<%= @gallery.pictures[id].url %>' style="width:100%" onclick=openMyImage(<%= @slideIndex %>)>
         
@@ -33,6 +33,11 @@
   <img class="modal-content" id="img01">
   <!-- Modal Caption (Image Text) -->
   <div id="caption"></div>
+  <a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="navegateImage(-1)">❮</a>
+  <a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="navegateImage(+1)">❯</a>
+
+  
+
   
 </div>
 
@@ -40,8 +45,20 @@
 <script>
 // Get the modal
 var modal = document.getElementById('myModal');
+var actualImageIndex;
+
+function navegateImage(n){
+  actualImageIndex += n;
+ 
+  var i;
+    var x = document.getElementsByClassName("photoSlide");
+    
+    if (actualImageIndex > x.length) {actualImageIndex = 1}
+    if (actualImageIndex < 1) {actualImageIndex = x.length}
 
 
+  openMyImage(actualImageIndex);
+}
 
 
 
@@ -54,6 +71,7 @@ span.onclick = function() {
 }
 
 function openMyImage(imageIndex) {
+  actualImageIndex = imageIndex;
   var img = document.getElementById('myImg'+imageIndex);
   var modalImg = document.getElementById("img01");
   var captionText = document.getElementById("caption");
