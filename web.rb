@@ -25,4 +25,9 @@ get '/sanCristobal' do
 	
 end
 
+get '/tequendamita' do
+	@route = request.path_info
+	erb :antioquia
+end
+
 
